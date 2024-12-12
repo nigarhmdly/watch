@@ -1,0 +1,51 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Esprit Ruffle Shirt",
+            "price": 9.99,
+            "images": [
+                "https://preview.colorlib.com/theme/cozastore/images/product-01.jpg"
+              ]
+          },
+
+          {
+            "id": 2,
+            "title": "Herschel supply",
+            "price": 9.99,
+            "images": [
+                "https://preview.colorlib.com/theme/cozastore/images/product-02.jpg"
+              ]
+          },
+
+          {
+            "id": 3,
+            "title": "Only Check Trouser",
+            "price": 9.99,
+            "images": [
+                "https://preview.colorlib.com/theme/cozastore/images/product-03.jpg"
+              ]
+          },
+
+          {
+            "id": 4,
+            "title": "Classic Trench Coat",
+            "price": 9.99,
+            "images": [
+                "https://preview.colorlib.com/theme/cozastore/images/product-04.jpg"
+              ]
+          },
+
+
+          {
+            "id": 1,
+            "title": "Esprit Ruffle Shirt",
+            "price": 9.99,
+            "images": [
+                "https://preview.colorlib.com/theme/cozastore/images/product-01.jpg"
+              ]
+          }
+    ],
+    "basket": [],
+    "wishlist": []
+  }

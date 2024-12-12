@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F9F9FF;
+    padding: 45px 0px;
+    .grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        .imp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0px;
+            h1{
+                color: #222222;
+                font-size: 30px;
+            }
+            p{
+                color: #999999;
+                font-size: 13px;
+            }
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            margin: 40px 0px;
+            img{
+                width: 300px;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    i{
+                        color: blue;
+                        font-size: 25px;
+                    }
+                    h4{
+                        color: #222222;
+                        font-size: 16px;
+                    }
+                    p{
+                        color: #777777;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F9F9FF;
+    padding: 45px 0px;
+    .grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        .imp{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0px;
+            h1{
+                color: #222222;
+                font-size: 20px;
+            }
+            p{
+                color: #999999;
+                font-size: 13px;
+            }
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+            margin: 40px 0px;
+            img{
+                width: 200px;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    i{
+                        color: blue;
+                        font-size: 25px;
+                    }
+                    h4{
+                        color: #222222;
+                        font-size: 16px;
+                    }
+                    p{
+                        color: #777777;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+}
+
+
+
+@media (max-width: 480px) {
+
+    
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F9F9FF;
+        padding: 45px 0px;
+        .grid{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 95%;
+            .imp{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin: 20px 0px;
+                h1{
+                    color: #222222;
+                    font-size: 15px;
+                }
+                p{
+                    color: #999999;
+                    font-size: 11px;
+                }
+            }
+    
+            .main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 50px;
+                margin: 40px 0px;
+                img{
+                    width: 100px;
+                }
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 30px;
+                    nav{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        i{
+                            color: blue;
+                            font-size: 20px;
+                        }
+                        h4{
+                            color: #222222;
+                            font-size: 14px;
+                        }
+                        p{
+                            color: #777777;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    }

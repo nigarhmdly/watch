@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.Data{
+    background-color: #04091E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 0px;
+    p{
+        color: #777777;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: 45px 0px;
+        padding: 40px 0px;
+        nav{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h6{
+                color: #235ee7;
+                font-size: 10px;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+            h1{
+                color: #222222;
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+            span{
+                font-size: 14px;
+                font-family: sans-serif;
+            }
+            p{
+                color: #777777;
+                font-size: 14px;
+                font-family: sans-serif;
+            }
+            button{
+                color: white;
+                background-color: #000000;
+                padding: 7px 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 15px;
+                font-size: 11px;
+                font-weight: 600;
+                border: 1px solid black;
+                &:hover{
+                    background-color: transparent;
+                    color: black;
+                    transition: 0.6s;
+                }
+            }
+
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+background-image: url('https://preview.colorlib.com/theme/watch/img/video-bg.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 900px;
+height: 280px;
+div{
+    display: flex;
+            align-items: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+}
+        }
+    }
+}
+
+
+@media (max-width: 730px) {
+
+    .started{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            width: 90%;
+            margin: 45px 0px;
+            padding: 40px 0px;
+            nav{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                h6{
+                    color: #235ee7;
+                    font-size: 10px;
+                    font-family: sans-serif;
+                    font-weight: 100;
+                }
+                h1{
+                    color: #222222;
+                    font-size: 30px;
+                    font-family: sans-serif;
+                }
+                span{
+                    font-size: 14px;
+                    font-family: sans-serif;
+                }
+                p{
+                    color: #777777;
+                    font-size: 14px;
+                    font-family: sans-serif;
+                }
+                button{
+                    color: white;
+                    background-color: #000000;
+                    padding: 7px 15px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    border-radius: 15px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    border: 1px solid black;
+                    &:hover{
+                        background-color: transparent;
+                        color: black;
+                        transition: 0.6s;
+                    }
+                }
+    
+            }
+            .img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/watch/img/video-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    div{
+        display: flex;
+                align-items: center;
+                justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+    }
+            }
+        }
+    }
+    
+}
